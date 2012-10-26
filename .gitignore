@@ -13,3 +13,11 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+*xcodeproj/*mode*
+*xcodeproj/*pbxuser
+*xcodeproj/*per*
+*xcodeproj/project.xcworkspace
+*xcodeproj/xcuserdata
+*tmproj
+.DS_Store
+*.mode1v3
