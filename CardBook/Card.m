@@ -81,7 +81,7 @@
     else
         [self setCard:[coder decodeObject]];
     if (version == 3) {
-        [coder decodeValueOfObjCType:@encode(int) at:&isLocked];
+        [coder decodeValueOfObjCType:@encode(bool) at:&isLocked];
     }
     return self;
 }
