@@ -12,6 +12,7 @@
 		DAAEA91A13E1F7B600B463AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA91913E1F7B600B463AC /* main.m */; };
 		DAAEA91E13E1F7B600B463AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DAAEA91C13E1F7B600B463AC /* Credits.rtf */; };
 		DAAEA92113E1F7B600B463AC /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA92013E1F7B600B463AC /* MyDocument.m */; };
+		DAC16663163B1E1300D3D701 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DAC16662163B1E1300D3D701 /* README.md */; };
 		DADA41AF13E2BAFF007F498F /* add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A413E2BAFF007F498F /* add.tiff */; };
 		DADA41B013E2BAFF007F498F /* copy.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A513E2BAFF007F498F /* copy.tiff */; };
 		DADA41B113E2BAFF007F498F /* cut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A613E2BAFF007F498F /* cut.tiff */; };
@@ -32,7 +33,6 @@
 		DADA41CB13E2BB31007F498F /* delete.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41C013E2BB31007F498F /* delete.tiff */; };
 		DADA41CC13E2BB31007F498F /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = DADA41C113E2BB31007F498F /* License.txt */; };
 		DADA41CD13E2BB31007F498F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DADA41C213E2BB31007F498F /* Localizable.strings */; };
-		DADA41CE13E2BB31007F498F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DADA41C313E2BB31007F498F /* README.txt */; };
 		DADA41CF13E2BB31007F498F /* Toolbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = DADA41C413E2BB31007F498F /* Toolbar.plist */; };
 		DADA41D213E2BBAB007F498F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADA41D013E2BBAB007F498F /* MainMenu.xib */; };
 		DADA41D313E2BBAB007F498F /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADA41D113E2BBAB007F498F /* MyDocument.xib */; };
@@ -62,6 +62,7 @@
 		DAAEA91D13E1F7B600B463AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		DAAEA91F13E1F7B600B463AC /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		DAAEA92013E1F7B600B463AC /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		DAC16662163B1E1300D3D701 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DADA41A413E2BAFF007F498F /* add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = add.tiff; sourceTree = "<group>"; };
 		DADA41A513E2BAFF007F498F /* copy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = copy.tiff; sourceTree = "<group>"; };
 		DADA41A613E2BAFF007F498F /* cut.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cut.tiff; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		DADA41C013E2BB31007F498F /* delete.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = delete.tiff; sourceTree = "<group>"; };
 		DADA41C113E2BB31007F498F /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		DADA41C213E2BB31007F498F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		DADA41C313E2BB31007F498F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		DADA41C413E2BB31007F498F /* Toolbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Toolbar.plist; sourceTree = "<group>"; };
 		DADA41D013E2BBAB007F498F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		DADA41D113E2BBAB007F498F /* MyDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDocument.xib; sourceTree = "<group>"; };
@@ -122,6 +122,7 @@
 		DAAEA8FE13E1F7B500B463AC = {
 			isa = PBXGroup;
 			children = (
+				DAC16662163B1E1300D3D701 /* README.md */,
 				DAAEA91313E1F7B600B463AC /* CardBook */,
 				DAAEA90C13E1F7B600B463AC /* Frameworks */,
 				DAAEA90A13E1F7B600B463AC /* Products */,
@@ -158,7 +159,6 @@
 		DAAEA91313E1F7B600B463AC /* CardBook */ = {
 			isa = PBXGroup;
 			children = (
-				DADA41C313E2BB31007F498F /* README.txt */,
 				DADA41C113E2BB31007F498F /* License.txt */,
 				DADA41BA13E2BB31007F498F /* CardBook Features Planner.cardbook */,
 				DADA41D813E2BBEE007F498F /* Card.h */,
@@ -332,13 +332,13 @@
 				DADA41CB13E2BB31007F498F /* delete.tiff in Resources */,
 				DADA41CC13E2BB31007F498F /* License.txt in Resources */,
 				DADA41CD13E2BB31007F498F /* Localizable.strings in Resources */,
-				DADA41CE13E2BB31007F498F /* README.txt in Resources */,
 				DADA41CF13E2BB31007F498F /* Toolbar.plist in Resources */,
 				DADA41D213E2BBAB007F498F /* MainMenu.xib in Resources */,
 				DADA41D313E2BBAB007F498F /* MyDocument.xib in Resources */,
 				DADA41DF13E2BC06007F498F /* CardInspector.nib in Resources */,
 				DADA41E813E2BC69007F498F /* FindPanel.nib in Resources */,
 				DADA41ED13E2BC96007F498F /* Preferences.nib in Resources */,
+				DAC16663163B1E1300D3D701 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
