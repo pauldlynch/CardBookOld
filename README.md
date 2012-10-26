@@ -5,6 +5,8 @@ CardBook - MacOS X card index program
 
 #CardBook 0.2 README
 
+This is 0.2 (for MacOS X 10.2) updated for Lion support and Xcode 3.
+
 CardBook is a card index application for Mac OS X.  It is released under the FreeBSD license, which means without charge.  Several sample cardbook files are included, as well as the full source code for CardBook.
 
 Documentation of both the application and source are included in cardbook format.
