@@ -12,7 +12,6 @@
 		DAAEA91A13E1F7B600B463AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA91913E1F7B600B463AC /* main.m */; };
 		DAAEA91E13E1F7B600B463AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DAAEA91C13E1F7B600B463AC /* Credits.rtf */; };
 		DAAEA92113E1F7B600B463AC /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA92013E1F7B600B463AC /* MyDocument.m */; };
-		DAC16663163B1E1300D3D701 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DAC16662163B1E1300D3D701 /* README.md */; };
 		DADA41AF13E2BAFF007F498F /* add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A413E2BAFF007F498F /* add.tiff */; };
 		DADA41B013E2BAFF007F498F /* copy.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A513E2BAFF007F498F /* copy.tiff */; };
 		DADA41B113E2BAFF007F498F /* cut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DADA41A613E2BAFF007F498F /* cut.tiff */; };
@@ -63,6 +62,10 @@
 		DAAEA91F13E1F7B600B463AC /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		DAAEA92013E1F7B600B463AC /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		DAC16662163B1E1300D3D701 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DAC16666163B236700D3D701 /* Addresses.cardbook */ = {isa = PBXFileReference; lastKnownFileType = file; path = Addresses.cardbook; sourceTree = "<group>"; };
+		DAC16667163B236700D3D701 /* CardBook Cocoa Features.cardbook */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CardBook Cocoa Features.cardbook"; sourceTree = "<group>"; };
+		DAC16668163B236700D3D701 /* CardBook Features.cardbook */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CardBook Features.cardbook"; sourceTree = "<group>"; };
+		DAC16669163B236700D3D701 /* Food.cardbook */ = {isa = PBXFileReference; lastKnownFileType = file; path = Food.cardbook; sourceTree = "<group>"; };
 		DADA41A413E2BAFF007F498F /* add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = add.tiff; sourceTree = "<group>"; };
 		DADA41A513E2BAFF007F498F /* copy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = copy.tiff; sourceTree = "<group>"; };
 		DADA41A613E2BAFF007F498F /* cut.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cut.tiff; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC16662163B1E1300D3D701 /* README.md */,
+				DAC16665163B236700D3D701 /* Samples */,
 				DAAEA91313E1F7B600B463AC /* CardBook */,
 				DAAEA90C13E1F7B600B463AC /* Frameworks */,
 				DAAEA90A13E1F7B600B463AC /* Products */,
@@ -195,6 +199,17 @@
 				DADA41A313E2BABE007F498F /* Images */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC16665163B236700D3D701 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16666163B236700D3D701 /* Addresses.cardbook */,
+				DAC16667163B236700D3D701 /* CardBook Cocoa Features.cardbook */,
+				DAC16668163B236700D3D701 /* CardBook Features.cardbook */,
+				DAC16669163B236700D3D701 /* Food.cardbook */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 		DADA41A313E2BABE007F498F /* Images */ = {
@@ -338,7 +353,6 @@
 				DADA41DF13E2BC06007F498F /* CardInspector.nib in Resources */,
 				DADA41E813E2BC69007F498F /* FindPanel.nib in Resources */,
 				DADA41ED13E2BC96007F498F /* Preferences.nib in Resources */,
-				DAC16663163B1E1300D3D701 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
